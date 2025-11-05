@@ -23,7 +23,7 @@ import androidx.fragment.app.FragmentActivity
  */
 class SplashActivity : FragmentActivity() {
 
-    private val splashDelayMs: Long = 3000L
+    private val splashDelayMs: Long = 1500L
     private val handler = Handler(Looper.getMainLooper())
 
     private val navigateRunnable = Runnable {

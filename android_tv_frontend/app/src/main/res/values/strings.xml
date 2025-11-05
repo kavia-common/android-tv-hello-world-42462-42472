@@ -5,4 +5,27 @@
     <!-- Reserved for potential future strings -->
     <string name="hello_world">Hello World</string>
     <string name="hello_tv">HelloTV</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_my_plan">My Plan</string>
+
+    <!-- Labels -->
+    <string name="label_top_trending">Top Trending</string>
+    <string name="label_continue_watching">Continue Watching</string>
+    <string name="label_action">Action</string>
+    <string name="label_drama">Drama</string>
+    <string name="label_horror">Horror</string>
+    <string name="label_others">Others</string>
+    <string name="label_available_subscriptions">Available Subscriptions</string>
+
+    <!-- Accessibility / content descriptions -->
+    <string name="hero_banner_desc">Featured content banner</string>
+    <string name="card_image_desc">Content image</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_button">Sign In</string>
 </resources>
