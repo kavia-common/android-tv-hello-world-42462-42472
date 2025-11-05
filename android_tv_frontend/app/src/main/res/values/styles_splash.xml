@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE: Theme.Splash used by SplashActivity for a clean, full-screen splash -->
+    <style name="Theme.Splash" parent="Theme.Leanback">
+        <!-- Colors -->
+        <item name="android:colorPrimary">@color/op_primary</item>
+        <item name="android:colorAccent">@color/op_secondary</item>
+        <item name="android:textColorPrimary">@color/op_text</item>
+        <item name="android:textColorSecondary">@color/tv_secondary</item>
+
+        <!-- Background to match app -->
+        <item name="android:windowBackground">@drawable/bg_subtle_gradient</item>
+
+        <!-- No title bar, full screen for splash -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

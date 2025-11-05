@@ -11,6 +11,7 @@ import android.widget.TextView
  *
  * PUBLIC_INTERFACE
  * Displays a centered "Hello World" with Ocean Professional theme and ensures D-pad focus handling.
+ * Entry: Navigated to from SplashActivity after ~3 seconds.
  */
 class MainActivity : FragmentActivity() {
 
