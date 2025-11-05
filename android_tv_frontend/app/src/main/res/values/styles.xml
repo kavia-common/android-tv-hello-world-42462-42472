@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme for Android TV with Ocean Professional palette -->
+    <!-- PUBLIC_INTERFACE: AppTheme is the main application theme applied in AndroidManifest.xml -->
     <style name="AppTheme" parent="Theme.Leanback">
         <!-- Colors -->
         <item name="android:colorPrimary">@color/op_primary</item>
@@ -9,6 +10,7 @@
         <item name="android:textColorSecondary">@color/tv_secondary</item>
 
         <!-- Background: subtle gradient for modern-retro vibe -->
+        <!-- References @drawable/bg_subtle_gradient which exists under res/drawable -->
         <item name="android:windowBackground">@drawable/bg_subtle_gradient</item>
 
         <!-- Typography: large readable -->
@@ -19,7 +21,7 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <!-- Shared TextView styling -->
+    <!-- PUBLIC_INTERFACE: AppTextView is the default TextView style used across the app -->
     <style name="AppTextView" parent="@android:style/Widget.TextView">
         <item name="android:textColor">@color/op_text</item>
         <item name="android:fontFamily">sans-serif-medium</item>
@@ -29,7 +31,8 @@
         <item name="android:shadowRadius">4</item>
     </style>
 
-    <!-- Focusable element style with retro glow -->
+    <!-- PUBLIC_INTERFACE: FocusableRetro applies the retro glow background for focusable elements -->
+    <!-- References @drawable/focus_glow_retro which exists under res/drawable -->
     <style name="FocusableRetro">
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
