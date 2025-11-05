@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- TV optimized colors -->
-    <color name="tv_background">#000000</color>
-    <color name="tv_overlay">#CC000000</color>
-    <color name="tv_primary">#FFFFFF</color>
-    <color name="tv_secondary">#CCCCCC</color>
-    <color name="tv_accent">#2196F3</color>
-    <color name="tv_button_focused">#FFFFFF</color>
-    <color name="tv_button_normal">#80FFFFFF</color>
+    <!-- Ocean Professional Theme Colors -->
+    <color name="op_primary">#2563EB</color> <!-- Blue 600 -->
+    <color name="op_secondary">#F59E0B</color> <!-- Amber 500 (also success) -->
+    <color name="op_success">#F59E0B</color>
+    <color name="op_error">#EF4444</color> <!-- Red 500 -->
+    <color name="op_background">#f9fafb</color> <!-- Gray-50 -->
+    <color name="op_surface">#ffffff</color>
+    <color name="op_text">#111827</color> <!-- Gray-900 -->
+
+    <!-- TV optimized legacy keys mapped to Ocean Professional for compatibility -->
+    <color name="tv_background">@color/op_background</color>
+    <color name="tv_overlay">#66000000</color>
+    <color name="tv_primary">@color/op_text</color>
+    <color name="tv_secondary">#6B7280</color>
+    <color name="tv_accent">@color/op_primary</color>
+    <color name="tv_button_focused">@color/op_secondary</color>
+    <color name="tv_button_normal">#80111827</color>
 </resources>

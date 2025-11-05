@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme for Android TV -->
+    <!-- Base application theme for Android TV with Ocean Professional palette -->
     <style name="AppTheme" parent="Theme.Leanback">
-        <!-- Customize your theme here -->
-        <item name="android:windowBackground">@color/tv_background</item>
-        <item name="android:colorPrimary">@color/tv_accent</item>
+        <!-- Colors -->
+        <item name="android:colorPrimary">@color/op_primary</item>
+        <item name="android:colorAccent">@color/op_secondary</item>
+        <item name="android:textColorPrimary">@color/op_text</item>
+        <item name="android:textColorSecondary">@color/tv_secondary</item>
+
+        <!-- Background: subtle gradient for modern-retro vibe -->
+        <item name="android:windowBackground">@drawable/bg_subtle_gradient</item>
+
+        <!-- Typography: large readable -->
+        <item name="android:textViewStyle">@style/AppTextView</item>
+
+        <!-- Remove action bar for minimalist layout -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Shared TextView styling -->
+    <style name="AppTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/op_text</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:shadowColor">#20000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <!-- Focusable element style with retro glow -->
+    <style name="FocusableRetro">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/focus_glow_retro</item>
     </style>
 </resources>

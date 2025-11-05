@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base background to ensure solid fill on TVs -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/op_background" />
+        </shape>
+    </item>
+    <!-- Subtle top-left to bottom-right gradient for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#1A2563EB"
+                android:endColor="#10AAAAAA"
+                android:angle="315"/>
+        </shape>
+    </item>
+</layer-list>

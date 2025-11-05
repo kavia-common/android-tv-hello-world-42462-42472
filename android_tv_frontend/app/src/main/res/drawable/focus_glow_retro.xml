@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Focused state with ocean glow -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="16dp"/>
+            <stroke android:width="2dp" android:color="@color/op_secondary"/>
+            <padding android:left="16dp" android:top="8dp" android:right="16dp" android:bottom="8dp"/>
+        </shape>
+    </item>
+    <!-- Default state minimal -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+</selector>
